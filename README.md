@@ -102,5 +102,5 @@ make sure u have a stable version of npm and node.js installed locally on your p
   ![image](https://user-images.githubusercontent.com/50829119/171434708-40d28437-8be1-4e0c-a56c-a75b27d7de92.png)
   
   **Pull Req**
-  ![image](https://user-images.githubusercontent.com/50829119/171434922-ceec46c7-9010-4330-b5aa-325c0bf1fd7b.png)
+  ![image](https://user-images.githubusercontent.com/50829119/171446665-fca845c8-d09e-44c4-ad3e-f7920bd2384c.png)
 
