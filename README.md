@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/50829119/171422230-f6e5843c-af03-48f3-8dcf-7050a6ddd7c1.png" alt="The Documentation Compendium"></a>
+ <img src="https://user-images.githubusercontent.com/50829119/171449276-562fc2dd-7b82-4ac4-97eb-22b726bc67c4.png" alt="The Documentation Compendium"></a>
 </p>
 
 <h3 align="center">Welcome to Dyte-Cli</h3>
@@ -12,6 +12,7 @@
   - [`Help` cmd](#help)
   - [`Input` cmd](#input)
   - [`Update` cmd](#update) 
+  - [`show` cmd](#show)
 - [Dependencies](#dependencies)
  
 
@@ -71,17 +72,28 @@ make sure u have a stable version of npm and node.js installed locally on your p
  - [ ] Make sute it have two parameters ```name``` and ```repo```
 
 ### **`Help` cmd** <a name="help"></a>
-
+    _used to view cmd's and documentations_
  - **cmd**
   ```sh
   dyte-cli -h
   ```
 - **expected output**
-  ![image](https://user-images.githubusercontent.com/50829119/171432194-d5882c7d-2631-4b28-b913-2db93996e759.png)
+  ![image](https://user-images.githubusercontent.com/50829119/171449553-76a3c7a1-e89c-4871-847d-d205bfa02c2f.png)
+
+### **`show` cmd** <a name="show"></a>
+   _Is used to view input.csv file_
+    
+ - **cmd**
+  ```sh
+  dyte-cli show
+  ```
+- **expected output**
+  ![image](https://user-images.githubusercontent.com/50829119/171449734-580678d7-160a-462a-8b2e-b684ce0596bf.png)
 
 
 ### **`Input` cmd** <a name="input"></a>
-
+   _Is used to fed in data to the CLI_
+    
  - **cmd**
   ```sh
   dyte-cli input input.csv <package>@<version>
@@ -90,6 +102,7 @@ make sure u have a stable version of npm and node.js installed locally on your p
   ![image](https://user-images.githubusercontent.com/50829119/171433107-b1669b03-d7e3-409b-a8c2-58fa78abdc4e.png)
 
 ### **`Update` cmd** <a name="update"></a>
+   _used to generate pull request for outdated packages_
 
  - **cmd**
   ```sh
