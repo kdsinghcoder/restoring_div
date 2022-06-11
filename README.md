@@ -1,8 +1,8 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/50829119/171449276-562fc2dd-7b82-4ac4-97eb-22b726bc67c4.png" alt="The Documentation Compendium"></a>
+ <img src="https://user-images.githubusercontent.com/50829119/173206408-2e91c683-3e55-47ef-afe0-4c978f225d0c.png" alt="The Documentation Compendium"></a>
 </p>
 
-<h3 align="center">Welcome to Dyte-Cli</h3>
+<h3 align="center">Welcome to Git-Cli</h3>
 
 ## Table of Contents
 - [About](#about)
@@ -66,9 +66,9 @@ make sure u have a stable version of npm and node.js installed locally on your p
  - [ ] Your input.csv file must look like as below
       | name | repo |
       | :---: | :---: |
-      | dyte-react-sample-app | https://github.com/dyte-in/react-sample-app/ |
-      | dyte-js-sample-app | https://github.com/dyte-in/javascript-sample-app |
-      | dyte-sample-app-backend | https://github.com/dyte-in/backend-sample-app |
+      | kdsinghcoder-sample-app-1 | https://github.com/kdsinghcoder/Travel-Buddy |
+      | kdsinghcoder-sample-app-2 | https://github.com/kdsinghcoder/crowd-funding-for-artists |
+      | kdsinghcoder-sample-app-3 | https://github.com/kdsinghcoder/hackoff_donate |
  - [ ] Make sute it have two parameters ```name``` and ```repo```
 
 ### **`Help` cmd** <a name="help"></a>
@@ -78,7 +78,7 @@ make sure u have a stable version of npm and node.js installed locally on your p
   dyte-cli -h
   ```
 - **expected output**
-  ![image](https://user-images.githubusercontent.com/50829119/171449553-76a3c7a1-e89c-4871-847d-d205bfa02c2f.png)
+  ![image](https://user-images.githubusercontent.com/50829119/173206431-b5bac969-48a2-40f6-b29e-625d8156be32.png)
 
 ### **`show` cmd** <a name="show"></a>
    _Is used to view input.csv file_
@@ -88,7 +88,7 @@ make sure u have a stable version of npm and node.js installed locally on your p
   dyte-cli show
   ```
 - **expected output**
-  ![image](https://user-images.githubusercontent.com/50829119/171449734-580678d7-160a-462a-8b2e-b684ce0596bf.png)
+  ![image](https://user-images.githubusercontent.com/50829119/173206483-8b9ad956-8bdf-4ebf-be3e-7bf745fcaa30.png)
 
 
 ### **`Input` cmd** <a name="input"></a>
@@ -99,17 +99,17 @@ make sure u have a stable version of npm and node.js installed locally on your p
   dyte-cli input input.csv <package>@<version>
   ```
 - **expected output**
-  ![image](https://user-images.githubusercontent.com/50829119/171433107-b1669b03-d7e3-409b-a8c2-58fa78abdc4e.png)
+  ![image](https://user-images.githubusercontent.com/50829119/173206609-abb0ae45-d1af-4f78-895e-2310b2b5ae4a.png)
 
 ### **`Update` cmd** <a name="update"></a>
    _used to generate pull request for outdated packages_
 
  - **cmd**
   ```sh
-  dyte-cli input input.csv <package>@<version> update
+  git-cli input input.csv <package>@<version> update
   ```
 - **expected output**
-  ![image](https://user-images.githubusercontent.com/50829119/171433706-566b42dd-01b4-431e-9995-0441d75bce82.png)
+  ![image](https://user-images.githubusercontent.com/50829119/173206747-ff2269bf-ebfd-4e2c-9d18-38d949d3f96e.png)
 
   **Pull req musht be created**
   ![image](https://user-images.githubusercontent.com/50829119/171434708-40d28437-8be1-4e0c-a56c-a75b27d7de92.png)
